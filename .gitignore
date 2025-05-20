@@ -1,3 +1,4 @@
 wp-config*
 config*.php
 carryover/headers.txt
+*.mmdb
