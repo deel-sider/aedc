@@ -1,0 +1,9 @@
+This all started as a simple personal home page that then gained a photo gallery at a time when such things were not common on the web. There was a travel directory too, and that is now a sort of travelogue. Lastly, there is a blog celebrating what has delighted me while walking or cycling through some alluring and soothing countryside.
+
+My interests have changed all the while, too. First, photography became a more serious pursuit, while wanderings became as rural as they were urban. Then, hillwalking became an attractive way of savouring wilder parts, much as cycling had been. After those, explorations once limited to Britain became more international, with those of Ireland and the Isle of Man acting as staging posts for encounters with other places.
+
+All have offered inspiration and delight. Both of these cause me to continue to share these experiences here in a way that other outlets like social media never could. There are times when a little added effort is deserved, be it the processing of selected photos or a longer account of a pleasant experience. Learning from trip planning needs a place to collate it too. All come together to produce what you find here.
+
+Life's adventure continues and may bring new delights to share. Much-loved locations around Britain are not about to be spurned in favour of more exotic spots in Scandinavia, Alpine Europe or North America. There is much left to savour yet, and there remains the possibility that the Antipodes could be visited yet, even if they seem a long shot for now.
+
+Of course, everyone has their own exploring to do, and I hope that what you may have found here might have inspired yours. After all, we all like reading each other’s accounts, and that is how travel magazines keep some of us reading them. What we do then doubtless is very much up to us...

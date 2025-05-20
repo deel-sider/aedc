@@ -1,0 +1,1 @@
+There was a time when I shared missives on X (one time known as Twitter) until the noisiness became enough to make me look for something a little quieter. Mastodon then became my choice of replacement for sharing links and other musings, and it helps that I can redistribute things from there more easily as well. What you now find here is part of that ongoing effort.

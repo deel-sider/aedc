@@ -1,0 +1,7 @@
+When it comes to nature and the environment, there is an oft-repeated mantra: take only photos and leave only footprints. Having photos is one way of ensuring that memorable moments endure. They often remind me of forgotten details while writing up trip reports and could take anyone back to happier times when circumstances feel more hostile.
+
+In some ways, the practice of photography can have a circular relationship with travel. In one way, photographs are a result of a trip away from home, while the prospect of making photographs together with the sight of one or more images can be motivating. That is how it works for me.
+
+What is clearer though is that having a selection of photos got me going with a now-defunct Geocities website in a time when image galleries were not as common online. Unlike today, there was much dross to be found because early adapters were not always the best photographers and many grey day shots were included when they would be overlooked nowadays. With some inspiration, a life journey had started.
+
+Not all of this was spent online and centred around digitisation so places around Britain, Ireland and the Isle of Man got recorded before I started venturing to some sunshine islands and North America as well as alpine and Nordic locations. There are some locations to which I fancy returning, and there are others to come. In this, hope that the variety of images and locations will expand and be enhanced. For that, I need to keep travelling.

@@ -1,0 +1,7 @@
+My travel activities have internationalised steadily over time. They once were limited to Britain and Ireland, but the portfolio of places visited now includes numerous European countries and a venture into North America that, I hope, will see more when the occasions allow.
+
+There is an enormous difference between exploring the country where you live and doing the same for another one where you are just a fleeting visitor. With the first, you can learn organically, while the research often happens all at once for the second. Even then, it is easy to see why some let others do the organisation for their overseas trips.
+
+One thing gets shared, though: it is often those lesser frequented spots that offer the most rewarding experiences. Finding them instead of the more usual honeypots needs one to get below the surface of a destination, and that takes a bit more time and effort than maybe a brief visit can allow.
+
+The above has inspired this part of the website and what you will find is a range of useful portals to learning more about different parts of Europe, North America, Africa and the Antipodes. The content is meant to go beyond being a set of information directories, but that is a very unfinished journey for now. Towards that end, there are some articles relating to travel experiences, so there is a variety on offer here.

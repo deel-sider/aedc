@@ -1,0 +1,6 @@
+Located at the bottom of this page lies a world of visual stories: a carefully curated collection of digital albums showcasing breathtaking locations across Europe and North America. Each album invites you to explore: simply click on what catches your eye and immerse yourself in the journey. Every image can be viewed in detail with a click on its thumbnail, complete with stories behind the scenes.
+
+This visual journey began decades ago, rooted in the misty landscapes of Scotland and the emerald vistas of Ireland, a natural starting point given my then Scottish residence and Irish heritage. Like rings in a tree, the collection has grown steadily outward, embracing the diverse beauty of Great Britain before venturing to the Isle of Man and across European horizons. The collection's reach eventually crossed the Atlantic, capturing the majestic wilderness of British Columbia just before the world paused, and later, the dynamic spirit of the San Francisco Bay Area.
+
+The quest for new images continues to fuel my yearning to roam, making this more than just a static gallery; it's a living, breathing chronicle of discovery. Thus, I invite you to return as new chapters unfold and fresh perspectives emerge. For now, I hope these images spark your own sense of wonder, and thank you for being part of this ongoing odyssey.
+

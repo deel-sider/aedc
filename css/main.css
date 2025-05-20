@@ -1,0 +1,510 @@
+body {
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	background-color: #fcfcfc;
+	color: #231F20;
+	line-height: 1.7;
+}
+
+@media only screen{
+
+	body {
+		padding-top: 50px;
+	}
+
+}
+
+@media only screen and (min-width: 768px) {
+
+	body {
+		padding-top: 100px;
+	}
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+	body {
+		padding-top: 50px;
+	}
+
+}
+
+@media only screen and (max-width: 991px) {
+
+	#google_translate_element {
+		display: none;
+		visibility: hidden;
+	}
+
+}
+
+img {
+    height: auto;
+    width: auto;
+}
+
+a, a:active, a:focus {
+	color: #231F20;
+}
+
+a:hover {
+	color: #771D1D;
+}
+
+.container h1 {
+	color: #fff;
+}
+.jumbotron {
+	background-color: #73572c;
+}
+
+.jumbotron p {
+	color: #fff;
+	font-family: "PT Sans", "Open Sans", Helvetica, Arial, sans-serif;
+	line-height: 1.45;
+}
+
+.jumbotron p a {
+	color: #f7f974;
+}
+
+.jumbotron p a:hover {
+	color: #fff;
+}
+
+.btn {
+    white-space: normal;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.centre {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left {
+  text-align: left;
+ }
+
+.red {
+	color: #771D1D;
+}
+
+.black,
+.jumbotron a.black,
+.jumbotron a.black:hover {
+	color: #231F20;
+}
+
+.iwb {
+    width: 324px;
+}
+
+.itwb {
+    min-width: 310px;
+    width: 310px;
+    height: 210px;
+}
+
+@media only screen and (max-width: 359px)  {
+
+    .itwb {
+        min-width: 100%;
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 360px) {
+
+    .ppw {
+      max-width: 324px;
+    }
+
+    .ppw-fixed {
+      max-width: 324px;
+    }
+
+}
+
+@media only screen and (min-width: 700px) {
+
+    .ppw {
+      max-width: 648px;
+    }
+
+    .ppw-fixed {
+      max-width: 651px;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .ppw {
+      max-width: 972px;
+    }
+
+    .ppw-fixed {
+      max-width: 976px;
+    }
+
+}
+
+.photopanel {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+
+.photo-text {
+	margin-top: 15px;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.inline-fixed {
+  display: inline-block;
+  width: 324px;
+  text-align: center;
+  vertical-align: top;
+  position: relative;
+  padding: 7px;
+}
+
+.img-thumbnail {
+    margin: 7px;
+    border-color: #fcfcfc;
+}
+
+.img-thumbnail-nodims {
+   display: inline-block;
+   max-width: 100%;
+   height: auto;
+   padding: 4px;
+   line-height: 1.42857143;
+   background-color: #fff;
+   border: 1px solid #fcfcfc;
+   border-radius: 4px;
+   -webkit-transition: all .2s ease-in-out;
+           transition: all .2s ease-in-out;
+}
+
+ .img-main {
+   max-width: 100%;
+   width: auto;
+   height: auto;
+   padding: 4px;
+   line-height: 1.42857143;
+   background-color: #fff;
+   border: 1px solid #ddd;
+   border-radius: 4px;
+   -webkit-transition: all .2s ease-in-out;
+           transition: all .2s ease-in-out;
+   margin: 15px auto;
+   border-color: #fcfcfc;
+ }
+
+  .col-md-2 {
+    width: 20%;
+  }
+
+  .fullwidth {
+    width: 100%;
+  }
+
+  .top-offset {
+    margin-top: 20px;
+  }
+
+  .bottom-offset {
+    margin-bottom: 20px;
+  }
+
+  .top-offset-50 {
+    margin-top: 50px;
+  }
+
+  .bottom-offset-40 {
+    margin-bottom: 40px;
+  }
+
+  .sm-bottom-offset {
+    margin-bottom: 15px;
+  }
+  
+  .tjentry {
+	padding-left: 25px;
+  }
+  
+  .bold {
+	font-weight: 700;
+  }
+
+/* font sizes ------------------------------------------------------------------------------------------------------------------ */
+
+body {
+  font-size: 62.5%;
+}
+
+.intro-footer, .albums, .site-map-footer, footer, img, .terms-text, .policy-text {
+  font-size: 1.6em;
+}
+
+.clearForm label, .clearForm input, .txtLine, .txtBox {
+  font-size: 2.5600em;
+}
+
+h2	{
+	font-size: 3.5em;
+}
+
+h3	{
+	font-size: 2.5em;
+}
+
+h4	{
+	font-size: 2.0em;
+}
+
+p, li {
+  text-align: justify;
+  font-size: 1.6em;
+}
+
+.albums p {
+  font-size: 1.6em;
+  text-align: left;
+}
+
+.terms-text  ol li p, .terms-text ol li ul li {
+	font-size: 1.0em
+}
+
+.navbar-brand 
+{
+	font-size: 2.0rem;
+}
+
+.navbar-inverse .navbar-nav,
+.navbar-inverse .navbar-nav > li > a,
+.dropdown-submenu,
+.dropdown-menu li 
+{
+	font-size: 1.6rem;
+}
+
+label, .input {
+	font-size: 1.3em;
+}
+
+.indent30 {
+	font-size: 2.1em;
+}
+
+div#cookiewarning div#back{
+    font-size: 1.600em;
+}
+
+a#cookiewarningOK{
+    font-size:100%;
+}
+
+a#cookienotOK{
+    font-size:80%;
+}
+
+/* navigation bar -------------------------------------------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 1199px) {
+
+	.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+		color: #fff;
+	}
+
+	.dropdown-submenu {
+		display: none;
+		visibility: hidden;
+	}
+}
+
+
+.navbar {
+	background-color: #5c441e;
+	border-color: #5c441e;
+	color: #fff;
+}
+
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav,
+.navbar-inverse .navbar-nav > li > a {
+	color: #fff;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+	color: #231f20;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+/* form styles ----------------------------------------------------------------------------------------------------------------- */
+
+form {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+label {
+	text-align: justify;
+	line-height: 1.3;
+	text-indent: 0;
+	font-weight: 600;
+	color: #fff;
+	background-color: transparent;
+	margin-right: 0;
+	margin-left: 40px;
+	float: left;
+	width: 160px;
+}
+
+.clearForm {
+	clear: both;
+	margin: 10px 0 10px 0;
+	text-align: left;
+}
+
+.clearFormButton {
+	clear: both;
+	margin: 10px 0 10px 0;
+	text-align: center;
+}
+
+.txtLine {
+	width: 725px;
+	height: 30px;
+	margin: 0;
+}
+
+.txtBox {
+	width: 725px;
+	height: 300px;
+	margin: 0;
+	overflow: visible;
+}
+
+
+.input {
+	line-height: 1.3;
+	text-indent: 0;
+	margin-top: 5px;
+	margin-left: 200px;
+	margin-right: 0;
+	color: white;
+	text-decoration: none;
+	background-color: #771D1D;
+	padding: 6px;
+	border: 2px outset #771D1D;
+	height: 40px;
+	width: 725px;
+	-moz-border-radius: 9px;
+	-khtml-border-radius: 9px;
+ 	-webkit-border-radius: 9px;
+	border-radius: 9px;
+}
+
+/* site map -------------------------------------------------------------------------------------------------------------------- */
+
+ul.site_map li {
+	list-style-type:none;
+	margin-left: -40px;
+}
+
+/* utlity styles --------------------------------------------------------------------------------------------------------------- */
+
+.indent30 {
+	margin-left: 30px;
+	margin-right: 30px;
+	color: #fcfcfc;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.teaser {
+	width:100%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+/* Dealing with Google Translate bar ------------------------------------------------------------------------------------------- */
+
+html.translated-ltr div.navbar-fixed-top,
+html.translated-rtl div.navbar-fixed-top {position: fixed; top: 40px;}
+
+#google_translate_element {margin-top: 12px; margin-left: 30px;}
+
+.google_translate_element {width: 50px;}
