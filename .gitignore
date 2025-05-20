@@ -2,4 +2,4 @@ wp-config*
 config*.php
 carryover/headers.txt
 *.mmdb
-wp-fail2ban
+wp-fail2ban/*
