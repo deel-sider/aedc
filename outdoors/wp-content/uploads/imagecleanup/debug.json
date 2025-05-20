@@ -1,0 +1,23 @@
+[0.0081] Info: WP_Query results written to log
+[0.0004] Registered sizes: ["thumbnail","medium","large","full"]
+[0.0011] Meta indexed so far: 1 / 456
+[0.0031] Sample meta:
+{"width":901,"height":250,"file":"2014\/11\/wwimwi.png","sizes":{"thumbnail":{"file":"wwimwi-150x150.png","width":150,"height":150,"mime-type":"image\/png"},"medium":{"file":"wwimwi-300x83.png","width":300,"height":83,"mime-type":"image\/png"}},"image_meta":{"aperture":0,"credit":"","camera":"","caption":"","created_timestamp":0,"copyright":"","focal_length":0,"iso":0,"shutter_speed":0,"title":"","orientation":0}}
+[0.0005] Meta indexed so far: 101 / 456
+[0.0005] Meta indexed so far: 201 / 456
+[0.0005] Meta indexed so far: 301 / 456
+[0.0005] Meta indexed so far: 401 / 456
+[0.5729] Meta indexed so far: 456 / 456
+[0.5843] Info: Valid and Invalid meta results written to log
+[0.0198] Info: Loaded attachments to memory [34.5 mb]
+[1.0163] Info: 3799 Images found [38 mb]
+[1.1809] Info: 2530 Invalid images found [38.5 mb]
+[1.3482] Info: Retrieved attachment images from DB [37 mb]
+[1.6627] Info: Backup meta results written to log [37 mb]
+[0.0263] Posts checked for used images 1/205
+[0.0232] Posts checked for used images 101/205
+[0.0184] Posts checked for used images 201/205
+[0.4409] Info: Invalid post image meta results written to log
+Warning: skipping script index because of too many image files
+[0.0276] Warning: skipping attachment index because of too many image files
+[0.0736] Info: Unreferenced image file results written to log

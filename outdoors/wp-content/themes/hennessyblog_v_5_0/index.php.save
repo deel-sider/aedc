@@ -1,0 +1,374 @@
+<?php
+	define("_ROOT_LOC",$_SERVER['DOCUMENT_ROOT']);
+	require_once _ROOT_LOC . "/includes/headers.php";
+?>
+<!DOCTYPE html>
+<html>
+<head>
+<title><?php wp_title( '&raquo;', true, 'right' ); bloginfo('name'); ?> &raquo; Assorted Explorations</title>
+<meta name = "viewport" content = "initial-scale = 1.0">
+<meta charset="<?php bloginfo( 'charset' ); ?>">
+<link href="/bootstrap5/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="/css/main5.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="/css/cc.css" rel="stylesheet" type="text/css" media="screen" />
+<link rel="stylesheet" href="<?php echo esc_url( get_stylesheet_uri() ); ?>" type="text/css" />
+<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+<link rel="manifest" href="/favicons/site.webmanifest">
+<link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
+<?php wp_head(); ?>
+</head>
+<body>
+
+<?php require_once _ROOT_LOC . "/includes/navigation5.php"; ?>
+
+<div class="jumbotron pt-5 pb-5">
+<div class="container">
+<h1 class="mb-5"><?php bloginfo( 'name' ); ?></h1>
+<ul class="teaser-box">
+<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Site Welcome') ) : ?>
+<?php endif; ?>
+</ul>
+</div>
+</div>
+
+<div class="container mt-5">
+<div class="row">
+<div class="col-xl-8 pe-xl-3">
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+
+<?php if ( !is_single() & !is_page() ): ?>
+<div class="post mb-5">
+<?php else: ?>
+<div class="post">
+<?php endif; ?>
+
+<h2 class="mb-4"><?php if ( !is_single() && !is_page() ): ?><a href="<?php the_permalink() ?>"><?php endif; ?><?php the_title(); ?><?php if ( !is_single() && !is_page() ): ?></a><?php endif; ?></h2>
+
+<?php if ( !is_single() && !is_page() ): ?>
+<small class="mb-1"><?php the_time('j\<\s\u\p\>S\<\/\s\u\p\> F Y') ?></small>
+<small class="mb-4"><?php edit_post_link("Edit this entry"); ?></small>
+<?php elseif ( !is_page() && is_single() ): ?>
+<small class="mb-3">Published on <?php the_time('j\<\s\u\p\>S\<\/\s\u\p\> F Y') ?></small>
+<?php endif; ?>
+
+<?php
+$words_per_minute = 200;
+$content = get_the_content();
+$word_count = str_word_count(strip_tags($content));
+$reading_time = ceil($word_count / $words_per_minute);
+$sbit = "";
+if ($reading_time > 1) $sbit="s";
+?>
+
+<?php if ( is_single() ): ?>
+<small class="mb-4">
+Estimated Reading Time: <?php echo $reading_time; ?> minute<?php echo $sbit; ?>
+</small>
+<?php endif; ?>
+
+<?php if ( is_page() ): ?>
+<small class="mb-3">
+Estimated Reading Time: <?php echo $reading_time; ?> minute<?php echo $sbit; ?>
+</small>
+<small class="mb-4">
+Last updated on <?php echo get_the_modified_time('j\<\s\u\p\>S\<\/\s\u\p\> F Y'); ?>
+</small>
+<?php endif; ?>
+
+<?php the_content(); ?>
+<?php wp_link_pages(); ?>
+
+<?php if ( is_single() ): ?>
+
+<?php if ( comments_open() || (isset($post_id) && get_comments_number($post_id) > 0) ): ?>
+<div class="mt-5 comments">
+<?php endif; ?>
+
+<?php
+
+		$comments_query = new WP_Comment_Query();
+		$comments       = $comments_query->query( array( 'status' => 'approve'
+														 , 'post_id' => get_the_ID()
+														 )
+												);
+		if ( count($comments) > 0 ):
+			comments_number('<h3 class="comment-reply-title">No Comments</h3>'
+							, '<h3 class="comment-reply-title">Comment:</h3>'
+							, '<h3 class="comment-reply-title">Comments:</h3>'
+							);
+?>
+<div class="top-line comments">
+<ul class="prev-comms">
+<?php wp_list_comments(array('reply_text'=>'Reply to this', 'page' => get_the_ID())); ?>
+</ul>
+</div>
+<?php endif; ?>
+
+<?php if ( comments_open() ): ?>
+<?php
+		comment_form( array( 'title_reply'       => __( 'Add a Comment' ),
+							 'title_reply_to'    => __( 'Add a Comment' ),
+							 'cancel_reply_link' => __( 'Cancel Comment' )
+							)
+					); 
+?>
+<p class="aligncenter">Please be aware that comment moderation is enabled and may delay the appearance of your contribution.</p>
+<?php endif; ?>
+
+<?php if ( comments_open() || (isset($post_id) && get_comments_number($post_id) > 0) ): ?>
+</div>
+<?php endif; ?>
+
+<?php endif; ?>
+
+</div>
+
+<?php endwhile; ?>
+
+<?php else: ?>
+
+<script>location.href="<?php bloginfo( 'url' ) ?>";</script>
+
+<?php endif; ?>
+
+<?php if ( !is_single() & !is_page() ): ?>
+
+<div class="bpaging">
+	<?php
+		if (get_next_posts_link())
+		{
+			$rightm="";
+			if ($paged == 0)
+			{
+				$npage=2;
+				$rightm=" rightm";
+			}
+			else
+			{
+				$npage=$paged+1;
+			}
+			$npc = "";
+			if (!is_search())
+			{
+				$snpc = explode("/", $wp->request);
+				foreach ($snpc as &$npcc)
+				{
+					if ( $npcc != "page" )
+					{
+						if ( $npcc == $snpc[0] )
+						{
+							$npc = $snpc[0];
+						}
+						else
+						{
+							$npc = $npc . "/" . $npcc;
+						}
+					}
+					else
+					{
+						break;
+					}
+				}
+				if ($npc != "")
+				{
+					$nurl = get_settings('home') . "/" . $npc;
+				}
+				else
+				{
+					$nurl = get_settings('home');
+				}
+				$nurl = $nurl . "/page/" . $npage;
+			}
+			elseif (is_search())
+			{
+				$al = "/?s=" . str_replace(" ", "+", array_unique($wp->query_vars)["s"]);
+				$nurl = get_settings('home') . "/page/" . $npage . $al;
+			}
+	?>
+		<a class="btn btn-secondary shadow-none stretch mb-3<?php echo $rightm;?>" rel="nofollow" href="<?php echo $nurl; ?>">&laquo; <?php if (!is_search()) { echo("Older Entries"); } else { echo("Next"); } ?> &laquo;</a>
+	<?php
+		}
+		if (get_previous_posts_link())
+		{
+			$leftm="";
+			if (get_next_posts_link()) {
+				$leftm=" leftm";
+			}
+			if (!is_search())
+			{
+				$ppc = "";
+				$sppc = explode("/", $wp->request);
+				foreach ($sppc as &$ppcc)
+				{
+					if ( $ppcc != "page" )
+					{
+						if ( $ppcc == $sppc[0] )
+						{
+							$ppc = $sppc[0];
+						}
+						else
+						{
+							$ppc = $ppc . "/" . $ppcc;
+						}
+					}
+					else
+					{
+						break;
+					}
+				}
+				if ($ppc != "")
+				{
+					$purl = get_settings('home') . "/" . $ppc;
+				}
+				else
+				{
+					$purl = get_settings('home');
+				}
+				if ($paged == 2)
+				{
+					$purl = $purl;
+				}
+				else
+				{
+					$npage=$paged-1;
+					$purl = $purl . "/page/" . $npage;
+				}
+			}
+			elseif (is_search())
+			{
+				$al = "/?s=" . str_replace(" ", "+", array_unique($wp->query_vars)["s"]);
+				if ($paged == 2)
+				{
+					$purl = get_settings('home') . $al;
+				}
+				else
+				{
+					$purl = get_settings('home') . "/page/" . $paged-1 . $al;
+				}
+			}
+	?>
+		<a class="btn btn-secondary shadow-none stretch mb-3<?php echo $leftm;?>" rel="nofollow" href="<?php echo $purl; ?>">&raquo; <?php if (!is_search()) { echo("Newer Entries"); } else { echo("Previous"); } ?> &raquo;</a>
+	<?php
+		}
+	?>
+</div>
+
+<?php endif; ?>
+
+</div>
+<div class="sidebar col-xl-4 ps-xl-5">
+
+<ul>
+	<li>
+		<div class="centre mt-0 mb-4">
+			<a href="/send-a-message/" title="Send me a message" class="no-underline">
+				<img src="<?php bloginfo('template_directory'); ?>/images/Crystal_message_32x32.png" alt="Feed" width="32" height="32" />
+			</a>
+			<a href="/outdoors/feed" title="Keep up to date with the RSS Feed" class="ms-3 me-3 no-underline">
+				<img src="<?php bloginfo('template_directory'); ?>/images/feed-icon32x32.png" alt="Feed" width="32" height="32" />
+			</a>
+	<a href="https://twitter.com/hill_wanderer/" target="_blank" title="Follow me on Twitter" class="no-underline">
+				<img src="<?php bloginfo('template_directory'); ?>/images/Tweeter_Burnt_Orange_32.png" alt="Follow me on Twitter" width="32" height="32" />
+			</a>
+            		<a href="https://mstdn.social/@hill_wanderer/" target="_blank" title="Follow me on Mastodon" class="no-underline ms-3">
+		                <img src="<?php bloginfo('template_directory'); ?>/images/mastodon.png" alt="Follow me on Mastodon" width=="32" height="32" />
+			</a>
+		</div>
+	</li>
+	<li>
+		<?php 
+			if (is_single()|is_page()||is_search()||is_category()||is_tag()||is_archive()|($paged > 1)) {
+		?>
+				<a class="btn btn-secondary shadow-none stretch mb-3" href="<?php echo get_settings('home'); ?>/"><?php bloginfo('name'); ?></a>
+		<?php
+			}
+			if ( is_user_logged_in() ) { 
+		?>
+			<a class="btn btn-secondary shadow-none stretch mb-3" rel="nofollow" href="<?php echo get_settings('home'); ?>/wp-admin/">Dashboard</a>
+		<?php 
+			if (is_single()|is_page()) {
+				if (is_single()) $__type="Post";
+				elseif (is_page()) $__type="Page";
+		?>
+			<a class="btn btn-secondary shadow-none stretch mb-3" href="<?php echo get_edit_post_link(); ?>">Edit <?php echo $__type; ?></a>
+		<?php
+				} 
+			}
+		?>
+	</li>
+</ul>
+
+<ul>
+	<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Right Sidebar') ) : ?>
+	<?php endif; ?>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="footer container mt-4">
+	<?php
+	if ( !is_singular( array("post", "page", "attachment", "revision") ) ) {
+	?>
+	<hr>
+	<div class="row mt-5 mb-4">
+	<div class="col-xl-3">
+	<h3>Featured Subjects</h3>
+	<ul class="subjects">
+	<?php wp_list_categories('orderby=name&title_li=&show_count=0&depth=1'); ?>
+	</ul>
+	</div>
+	<div class="col-xl-3">
+	<h3>Featured Countries</h3>
+	<ul class="subjects">
+	<?php wp_list_categories('orderby=name&title_li=&show_count=1&child_of=14&depth=2'); ?>
+	</ul>
+	</div>
+	<div class="col-xl-3">
+	<h3>Featured Trails</h3>
+	<ul class="subjects">
+	<?php wp_list_categories('orderby=name&title_li=&show_count=1&child_of=4'); ?>
+	</ul>
+	</div>
+	<div class="col-xl-3 centre">
+	<form action="/redirect/" id="monthly_archive_dropdown" method="post">
+	<h3 class="centre mb-4"><label for="pick-month" class="pick-time red">Monthly Archives</label></h3>
+	<select id="pick-month" name="archive-dropdown">
+	<option value="" title="Pick a Month"><?php echo attribute_escape(__('Pick a Month')); ?></option> 
+	<?php wp_get_archives('type=monthly&format=option&show_post_count=1'); ?>
+	</select>
+	<input class="btn btn-secondary shadow-none stretch mt-3 mb-4 submit-time" type="submit" value="Go to Month" />
+	</form>
+	<form action="/redirect/" id="yearly_archive_dropdown" method="post">
+	<h3 class="centre mb-4"><label for="pick-year" class="pick-time">Yearly Archives</label></h3>
+	<select id="pick-year" name="archive-dropdown"> 
+	<option value="" title="Pick a Year"><?php echo attribute_escape(__('Pick a Year')); ?></option> 
+	<?php wp_get_archives('type=yearly&format=option&show_post_count=1'); ?>
+	</select>
+	<input class="btn btn-secondary shadow-none stretch mt-3 submit-time" type="submit" value="Go to Year" />
+	</form>
+	</div>
+	</div>
+	<?php
+	}
+	?>
+	</div>
+	<div class="container ps-0 pe-0">
+		<hr>
+		<footer>
+			<p class="centre mt-4 mb-4">Copyright &copy; 1998-<?php date_default_timezone_set('Europe/London'); echo date("Y"); ?>, AssortedExplorations.com</p>
+		</footer>
+	</div>
+</div>
+<?php
+define("ROOT_LOC",$_SERVER['DOCUMENT_ROOT']);
+require_once ROOT_LOC . "/includes/piwik.php";
+require_once ROOT_LOC . "/includes/cookie_warning.php";
+require_once ROOT_LOC . "/includes/bootstrap5.php";
+wp_footer();
+?>
+</body>
+</html>

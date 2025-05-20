@@ -1,0 +1,54 @@
+#share-on-mastodon .description {
+	margin: 1em 0 1px;
+}
+
+#share-on-mastodon .url .ellipsis,
+.share-on-mastodon-url .ellipsis {
+	word-break: break-word;
+}
+
+.share-on-mastodon-url,
+.share-on-mastodon-url:active,
+.share-on-mastodon-url:hover,
+.share-on-mastodon-url:focus {
+	margin-inline-end: 0.33em;
+	color: #007cba;
+}
+
+#share-on-mastodon .url .ellipsis::after,
+.share-on-mastodon-url .ellipsis::after {
+	word-break: break-word;
+	content: "\2026";
+}
+
+#share-on-mastodon .unlink {
+	color: #a00;
+}
+
+.share-on-mastodon-unlink,
+.share-on-mastodon-unlink:active,
+.share-on-mastodon-unlink:hover,
+.share-on-mastodon-unlink:focus {
+	color: #cc1818;
+}
+
+.settings_page_share-on-mastodon th label,
+.settings_page_share-on-mastodon th .label {
+	vertical-align: baseline;
+}
+
+.settings_page_share-on-mastodon fieldset {
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	font-size: 14px;
+	margin: 2em 0 1em;
+	max-width: 67%;
+	padding: 1.25em;
+}
+
+.settings_page_share-on-mastodon .form-group {
+	align-items: center;
+	display: flex;
+	gap: 1.25em;
+	justify-content: space-between;
+}

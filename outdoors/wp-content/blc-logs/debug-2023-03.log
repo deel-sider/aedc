@@ -1,0 +1,867 @@
+[3rd March 2023 9:37 am] Sync request started. 
+[3rd March 2023 9:37 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/result?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[3rd March 2023 9:39 am] Sync request started. 
+[3rd March 2023 9:39 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/result?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[3rd March 2023 10:08 am] Sync request started. 
+[3rd March 2023 10:08 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/result?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[3rd March 2023 10:09 am] Sync request started. 
+[3rd March 2023 10:09 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/result?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[3rd March 2023 1:33 pm] Sync request started. 
+[3rd March 2023 1:33 pm] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/result?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[3rd March 2023 1:33 pm] The start time is missing. Aborting importing data. 
+[4th March 2023 12:00 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[4th March 2023 12:10 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[5th March 2023 12:00 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[5th March 2023 12:10 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[5th March 2023 4:02 pm] Sync request started. 
+[5th March 2023 4:02 pm] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/result?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[5th March 2023 4:02 pm] The start time is missing. Aborting importing data. 
+[5th March 2023 4:02 pm] Sync request started. 
+[5th March 2023 4:02 pm] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/result?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[5th March 2023 4:02 pm] The start time is missing. Aborting importing data. 
+[6th March 2023 12:00 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[6th March 2023 12:10 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[7th March 2023 12:00 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[7th March 2023 12:10 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[8th March 2023 12:00 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[8th March 2023 12:10 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[9th March 2023 12:00 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[9th March 2023 12:10 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[10th March 2023 12:00 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[10th March 2023 12:10 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[11th March 2023 12:00 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[11th March 2023 12:10 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[11th March 2023 2:59 pm] Sync request started. 
+[11th March 2023 2:59 pm] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/result?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[11th March 2023 2:59 pm] The start time is missing. Aborting importing data. 
+[12th March 2023 12:00 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[12th March 2023 12:10 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[13th March 2023 12:00 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[13th March 2023 12:10 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[14th March 2023 12:00 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[14th March 2023 12:10 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[15th March 2023 12:00 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[15th March 2023 12:10 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[16th March 2023 12:00 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[16th March 2023 12:10 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[17th March 2023 12:00 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[17th March 2023 12:10 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[18th March 2023 12:00 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[18th March 2023 12:10 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[19th March 2023 12:00 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[19th March 2023 12:10 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[20th March 2023 12:00 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[20th March 2023 12:10 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[21st March 2023 12:00 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[21st March 2023 12:10 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[22nd March 2023 12:00 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[22nd March 2023 12:10 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[23rd March 2023 12:00 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[23rd March 2023 12:10 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[24th March 2023 12:00 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[24th March 2023 12:10 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[25th March 2023 12:00 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[25th March 2023 12:10 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[26th March 2023 12:00 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[26th March 2023 12:10 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[26th March 2023 11:00 pm] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[26th March 2023 11:10 pm] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[26th March 2023 11:20 pm] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[26th March 2023 11:30 pm] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[26th March 2023 11:40 pm] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[26th March 2023 11:50 pm] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[27th March 2023 12:00 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[27th March 2023 11:00 pm] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[27th March 2023 11:10 pm] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[27th March 2023 11:20 pm] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[27th March 2023 11:30 pm] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[27th March 2023 11:40 pm] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[27th March 2023 11:50 pm] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[28th March 2023 12:00 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[28th March 2023 11:00 pm] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[28th March 2023 11:10 pm] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[28th March 2023 11:20 pm] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[28th March 2023 11:30 pm] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[28th March 2023 11:40 pm] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[28th March 2023 11:50 pm] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[29th March 2023 12:00 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[29th March 2023 11:00 pm] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[29th March 2023 11:10 pm] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[29th March 2023 11:20 pm] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[29th March 2023 11:30 pm] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[29th March 2023 11:40 pm] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[29th March 2023 11:50 pm] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[30th March 2023 12:00 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[30th March 2023 11:00 pm] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[30th March 2023 11:10 pm] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[30th March 2023 11:20 pm] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[30th March 2023 11:30 pm] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[30th March 2023 11:40 pm] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[30th March 2023 11:50 pm] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[31st March 2023 12:00 am] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[31st March 2023 11:00 pm] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[31st March 2023 11:10 pm] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[31st March 2023 11:20 pm] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[31st March 2023 11:30 pm] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[31st March 2023 11:40 pm] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 
+[31st March 2023 11:50 pm] Processing request with following params : 
+URL: https://wpmudev.com/api/blc/v1/scan?domain=www.assortedexplorations.com/outdoors&site_id=3043486 
+Args:array (
+  'headers' => 
+  array (
+    'Authorization' => '6c5d28a21ac882f91bab40502439a27449ec30b5',
+  ),
+  'body' => '[]',
+) 

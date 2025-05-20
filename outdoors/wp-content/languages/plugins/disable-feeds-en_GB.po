@@ -1,0 +1,48 @@
+# Translation of Plugins - Disable Feeds - Development (trunk) in English (UK)
+# This file is distributed under the same license as the Plugins - Disable Feeds - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-11-24 05:26:09+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: en_GB\n"
+"Project-Id-Version: Plugins - Disable Feeds - Development (trunk)\n"
+
+#. Author URI of the plugin/theme
+msgid "http://rayofsolaris.net/"
+msgstr "http://rayofsolaris.net/"
+
+#. Author of the plugin/theme
+msgid "Samir Shah, BBpress support by Matthew Sigley"
+msgstr "Samir Shah, BBpress support by Matthew Sigley"
+
+#. Description of the plugin/theme
+msgid "Disable all RSS/Atom feeds on your WordPress site."
+msgstr "Disable all RSS/Atom feeds on your WordPress site."
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/disable-feeds/"
+msgstr "https://en-gb.wordpress.org/plugins/disable-feeds/"
+
+#. Plugin Name of the plugin/theme
+msgid "Disable Feeds"
+msgstr "Disable Feeds"
+
+#: disable-feeds.php:55
+msgid "Do not disable the <strong>global post feed</strong> and <strong>global comment feed</strong>"
+msgstr "Do not disable the <strong>global post feed</strong> and <strong>global comment feed</strong>"
+
+#: disable-feeds.php:54
+msgid "Issue a Page Not Found (404) error for feed requests"
+msgstr "Issue a Page Not Found (404) error for feed requests"
+
+#: disable-feeds.php:53
+msgid "Redirect feed requests to corresponding HTML content"
+msgstr "Redirect feed requests to corresponding HTML content"
+
+#: disable-feeds.php:52
+msgid "The <em>Disable Feeds</em> plugin is active, By default, all feeds are disabled, and all requests for feeds are redirected to the corresponding HTML content. You can tweak this behaviour below."
+msgstr "The <em>Disable Feeds</em> plugin is active, By default, all feeds are disabled, and all requests for feeds are redirected to the corresponding HTML content. You can tweak this behaviour below."
