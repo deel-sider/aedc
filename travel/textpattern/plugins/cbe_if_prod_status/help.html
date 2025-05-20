@@ -1,0 +1,89 @@
+<div id="cbe-plugin-help">
+<h1>cbe_if_prod_status</h1>
+
+<p>This plugin comes from a short story. I was given an URL as indices with the following comment : "I didn't make it clickable because I don't want it to be indexed, it is still being tested".
+<br />So, why not automatically prevent indexation if the site not yet live ?</p>
+
+<h2>Table of contents</h2>
+<ul>
+  <li><a href="#features">Features</a></li>
+  <li><a href="#dl-install-supp">Download, installation, support</a></li>
+  <li><a href="#tags-list">Tags</a></li>
+  <li><a href="#examples">Examples</a></li>
+  <li><a href="#changelog">Changelog</a></li>
+</ul>
+
+<h2 id="features">Features</h2>
+<ul>
+  <li>Automatically adds directive for robots in <code>&lt;head&gt;</code> section to prevent indexing and links following on non-live sites</li>
+  <li>Take action depending on production status (live, debug or testing)</li>
+  <li>&lt;txp:else /&gt; support</li>
+</ul>
+
+<h2 id="dl-install-supp">Download, installation, support</h2>
+<p>Download from <a href="http://textpattern.org/plugins/1262/cbe_if_prod_status">textpattern resources</a> or the <a href="http://www.clairebrione.com/cbe_if_prod_status">plugin page</a>.</p>
+<p>Copy/paste in the Admin > Plugins tab to install or uninstall, activate or desactivate.</p>
+<p>Visit the <a href="http://forum.textpattern.com/viewtopic.php?id=38318">forum thread</a> for support.</p>
+
+<h2 id="tags-list">Tags</h2>
+
+<h3>&lt;cbe_if_prod_status&gt;</h3>
+
+<pre><code>&lt;txp:cbe_if_prod_status
+  [value="live|debug|testing"]&gt;
+    ... do what must be done ...
+&lt;txp:else /&gt;
+    ... otherwise, do that ...
+&lt;/txp:cbe_if_prod_status&gt;</code></pre>
+
+<p>Default for <code>value</code> : "debug, testing".</p>
+
+<h2 id="examples">Examples</h2>
+
+<h3>Track errors when in non-live mode</h3>
+<pre><code>&lt;txp:cbe_if_prod_status&gt;
+    &lt;p&gt;You are here&lt;/p&gt;
+&lt;/txp:cbe_if_prod_status&gt;</code></pre>
+
+<h3>Collect statistics in live mode only</h3>
+<pre><code>&lt;txp:cbe_if_prod_status value="live"&gt;
+    &lt;script type="text/javascript" src="analytics.js"&gt;&lt;/script&gt;
+&lt;/txp:cbe_if_prod_status&gt;</code></pre>
+
+<h2 id="changelog">Changelog</h2>
+<ul>
+  <li>16 Jul 12 - v0.1 - Initial release</li>
+  <li>28 Jan 13 - v0.1.1 - Fix: didn't output anything if site status == 'live'</li>
+  <li> 22 Jul 13 - v0.2 - <a href="http://forum.textpattern.com/viewtopic.php?pid=274178#p274178">Neatly rewritten by Jukka Svahn (Gocom)</a></li>
+</ul>
+</div>
+<!-- *** BEGIN PLUGIN CSS *** -->
+<style type="text/css">
+#cbe-plugin-help .readme {
+  color: red;
+  font-weight: bold;
+}
+#cbe-plugin-help .accent {
+  font-weight: bold;
+}
+#cbe-plugin-help .list th{
+	text-align:left;
+	color:#fff;
+	background:#555;
+	padding:6px 16px 6px 4px;
+	border-right:1px solid #999;
+	font-weight:normal;
+}
+#cbe-plugin-help .list th a{
+	color:#fff;
+	display:block;
+}
+#cbe-plugin-help .list th h2{
+	margin:0;
+	font-size:11px;
+}
+#cbe-plugin-help .list td{
+	padding:6px 4px;
+}
+</style>
+<!-- *** END PLUGIN CSS *** -->

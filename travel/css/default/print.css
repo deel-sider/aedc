@@ -1,0 +1,13 @@
+#sidebar-2, ul.navBox, .divider {display: none;}
+
+a {color: black; text-decoration: none;}
+
+img {margin-left: auto; margin-right: auto;}
+
+h1 {font-size: 24px; text-align: center;}
+
+h2 {font-size: 22px; text-align: center;}
+
+.entry-content p, .description {font-size: 14px; text-align: justify;}
+
+#foot p {font-size: 12px; text-align: center;}

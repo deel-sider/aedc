@@ -1,0 +1,41 @@
+ul
+{
+	list-style-type: none;
+}
+
+ul.section_list
+{
+	margin-left: -2rem;
+}
+
+.section_list li, .active_class
+{
+	margin-bottom: 0.5rem;
+}
+
+.menuparent ul
+{
+	margin-top: 0.5rem;
+}
+
+.active_class
+{
+	font-weight: 700;
+}
+
+.boxtop a, .post a
+{
+	color: #771D1D;
+}
+
+.boxtop, .boxtopm
+{
+	margin-top: 1.5rem;
+	margin-bottom: 0.5rem;
+}
+
+.boxtopm .boxtop
+{
+	margin-top: 0.25rem;
+	margin-bottom: 0.25rem;
+}

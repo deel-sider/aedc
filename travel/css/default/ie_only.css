@@ -1,0 +1,206 @@
+#sidebar-2 a
+{
+	color: #771D1D;
+	border: none;
+	padding: 0;
+}
+
+#sidebar-2
+{
+	padding: 10px 0 0 0;
+	width: 185px;
+	\width: 185px;
+	w\idth: 185px;
+	margin: 0 0 0 10px;
+	float: right;
+	text-align: left;
+}
+
+#sidebar-2 p
+{
+	font-size: 0.8em;
+	line-height: 1.5em;
+	padding-bottom: 0;
+}
+
+.border1	{width: 96.5em;
+		 margin-left: auto;
+		 margin-right: auto;
+}
+
+#header
+{
+	border: 4px outset #9F7E2D;
+	margin: 0px auto 0px auto;
+	background-color: #F9F5EA;
+	width: 36em;
+	padding: 10px;
+	height: 11.0em;
+	background-image: url(/Images/Misc/headerBack2.png);
+	background-repeat: repeat-x;
+	background-position: bottom left;
+	-moz-border-radius: 11px;
+	-khtml-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	border-radius: 11px;
+}
+
+#headNav                        
+{
+	background-color: #E2C58D;
+	margin: 1.0em auto;
+	padding: 0px;
+	background-image: url(/Images/Misc/header4_merged.jpg);
+        background-repeat: no-repeat;
+        background-position: center left;
+        -moz-border-radius: 8px;
+        -khtml-border-radius: 8px;
+        -webkit-border-radius: 8px;
+        border-radius: 8px;
+        border: 1.0em solid #E2C58D;
+        width: 96.5em;
+}
+
+.active_section		{background: #fcfcfc;}
+
+.navBox				
+{
+	margin: 0.75em 0 0.75em 0;
+        text-align: left;
+        padding: 0px 5px;
+        font-weight:700;
+	display: block;
+}
+
+
+.navList			
+{
+	padding: 7px;
+        line-height: 1.0;
+        margin: 0px;
+        font-size: 1.3em;
+        text-align: left;
+	display: inline;
+}
+
+.active_section A.navBar:link    
+{
+	color: #5d3a11;
+        background: #fff;
+	text-decoration: none;
+	padding: 1px;
+	font-family: 'Arimo','Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
+}
+				  
+.active_section A.navBar:visited 
+{
+	color: #5d3a11;
+        background: #fff;
+	text-decoration: none;
+	padding: 1px;
+	font-family: 'Arimo','Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
+}
+				  
+.active_section A.navBar:hover   
+{
+	color: #5d3a11;
+        background: #fff;
+	text-decoration: underline;
+	padding: 1px;
+	font-family: 'Arimo','Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
+}
+				  
+.active_section A.navBar:active  
+{
+	color: #5d3a11;
+        background: #fff;
+	text-decoration: none;
+	padding: 1px;
+	font-family: 'Arimo','Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
+}
+
+.description    {width: 68.65em;
+		 margin-left: auto;
+		 margin-right: auto;
+}
+
+.beigeBack  	{width: 97.5em;
+		 margin-left: auto;
+		 margin-right: auto;
+}
+
+.brownBack  	{width: 97.5em;
+		 margin-left: auto;
+		 margin-right: auto;
+}
+
+#footer	{width: 96.5em;
+	 margin-left: auto;
+	 margin-right: auto;
+}
+
+.section_intro_box_half 
+{
+	width: 455px;
+}
+
+ul.dropdown ul {
+	list-style: none;
+ 	position: relative;
+}
+
+ul.dropdown li {
+	font-size: 13px;
+ 	line-height: 1.3em;
+ 	vertical-align: top;
+ 	zoom: 1;
+}
+
+ul.dropdown li.hover,
+ul.dropdown li:hover {
+ 	position: relative;
+ 	z-index: 599;
+ 	cursor: default;
+}
+
+ul.dropdown ul {
+ 	visibility: hidden;
+ 	position: absolute;
+ 	top: 28px;
+ 	left: 5px;
+ 	z-index: 598;
+ 	width: 0%;
+	background-color: #977745;
+        border: 1px solid #5d3a11;
+	font-family: 'Arimo','Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font-weight: 700;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+        -moz-box-shadow: 4px 4px 5px #000; /* Netscape */
+        -webkit-box-shadow: 4px 4px 5px #000; /* Safari */
+        box-shadow: 4px 4px 5px #000; /* Good browsers */
+        -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')"; /* IE 8 */
+        filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000'); /* IE 5-7 */
+}
+
+ul.dropdown ul li {
+ 	float: none;
+	text-align: left;
+        margin: 7px 0px 7px 3px;
+}
+
+ul.dropdown ul ul {
+ 	top: -8px;
+ 	left: 99%;
+}
+
+ul.dropdown li:hover > ul {
+ 	visibility: visible;
+	width: 119%;
+}
+
+.section_intro_box_third 
+{
+	width: 295px;
+}

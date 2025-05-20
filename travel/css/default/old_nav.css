@@ -1,0 +1,147 @@
+.brownBack  	{background-color: #977745;
+		 -moz-border-radius: 9px;
+             	 -webkit-border-radius: 9px;
+		 border-radius: 9px;
+             	 margin: 1.0em auto;
+		 padding: 1px 5px;
+             	 border: none;}
+
+@media only screen and (max-width: 499px) {
+
+.brownBack     {margin-left: 5px;
+		margin-right: 5px;
+		}
+
+}
+
+@media only screen and (min-width: 500px) {
+
+.brownBack	    {margin-left: 10px;
+				 margin-right: 10px;
+				}
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+.brownBack  {width: 97.5em;
+			 margin-left: auto;
+			 margin-right: auto;}
+
+}
+
+@media only screen and (max-width: 767px) {
+
+.navBox		{margin: 0.75em 0 0.65em 0;
+                 text-align: left;
+                 padding: 0px 5px;
+                 font-weight: 700;}
+
+.navList	{list-style-type: none;}
+
+}
+
+@media only screen and (min-width: 768px) {
+
+.navBox		{margin: 0;
+                 text-align: left;
+                 padding: 0 5px;
+                 font-weight: 700;
+		 display: block;}
+
+.navList	{line-height: 1.0;
+                 margin: 0;
+		 padding: 0;
+                 font-size: 1.3em;
+                 text-align: left;
+		 display: inline;}
+
+}
+
+
+a.navBar	              {color: white;
+				 font-weight: 600;
+				 text-decoration: none;
+                                 background-color: transparent;
+				 margin: 0;
+				 padding: 8px;
+				 font-family: 'Arimo','Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;}
+a.navBar:hover                  {color: yellow;
+				 text-decoration: underline;}
+
+ul.dropdown {
+	margin: 0.6em 0 0.65em 0;
+ 	position: relative;
+}
+
+ul.dropdown ul {
+	margin-top: -8.5px;
+	list-style: none;
+ 	position: relative;
+}
+
+ul.dropdown li {
+	font-size: 13px;
+ 	line-height: 1.3em;
+ 	vertical-align: top;
+ 	zoom: 1;
+}
+
+ul.dropdown li.hover,
+ul.dropdown li:hover {
+ 	position: relative;
+ 	z-index: 599;
+ 	cursor: default;
+}
+
+ul.dropdown ul {
+ 	visibility: hidden;
+ 	position: absolute;
+ 	top: 28px;
+ 	left: 5px;
+ 	z-index: 598;
+ 	width: 0%;
+	background-color: #977745;
+        border: 1px solid #5d3a11;
+	font-weight: 700;
+	font-family: 'Arimo','Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	color: #fff;
+	padding: 0;
+        -moz-box-shadow: 4px 4px 5px #000; /* Netscape */
+        -webkit-box-shadow: 4px 4px 5px #000; /* Safari */
+        box-shadow: 4px 4px 5px #000; /* Good browsers */
+        -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')"; /* IE 8 */
+        filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000'); /* IE 5-7 */
+}
+
+ul.dropdown ul li {
+ 	float: none;
+	text-align: left;
+	margin: 7px 5px 7px 7px;
+	padding: 0;
+}
+
+ul.dropdown ul ul {
+ 	top: 0px;
+ 	left: 99%;
+}
+
+ul.dropdown li:hover > ul {
+ 	visibility: visible;
+	width: 110%;
+}
+
+a.navMenu 	{
+		 color: white;
+		 text-decoration: none;
+		 text-align: left;
+		 background-color: #977745;
+		 padding: 0;
+		 margin: 0;
+		 font-family: 'Arimo', 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
+		}
+
+a.navMenu:hover {
+		 color: yellow;
+		 text-decoration: underline;
+		}
