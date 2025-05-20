@@ -1,0 +1,21 @@
+body {
+	padding-top: 50px;
+}
+	
+.navbar {
+	min-height: 50px;
+	height: 50px;
+}
+
+.container .row .col-sm-8 {
+    width: 61.4%;
+}
+
+.container .row .col-md-3 {
+	width: 22.5%;
+}
+
+.container .row .col-md-6 {
+	display: inline;
+	width: 47.5%;
+}
