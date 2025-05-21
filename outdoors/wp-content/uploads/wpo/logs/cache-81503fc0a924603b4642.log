@@ -3813,3 +3813,5 @@
 [2025-05-17 20:33:27 : INFO] - Cache for URL: https://www.assortedexplorations.com/outdoors/a-worldwide-mapping-survey/ has been purged, triggered by action: save_post 
 [2025-05-20 19:50:47 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
 [2025-05-20 19:50:47 : INFO] - Cache for URL: https://www.assortedexplorations.com/outdoors/a-multi-continental-collection-of-longer-hiking-trails-ranging-from-ireland-to-new-zealand/continental-crossings-europes-great-walking-routes/ has been purged, triggered by action: save_post 
+[2025-05-21 09:00:15 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-21 09:00:15 : INFO] - Cache for URL: https://www.assortedexplorations.com/outdoors/a-multi-continental-collection-of-longer-hiking-trails-ranging-from-ireland-to-new-zealand/englands-footpaths-from-coast-to-castle/ has been purged, triggered by action: save_post 
