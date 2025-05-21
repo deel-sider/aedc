@@ -3,7 +3,4 @@ config*.php
 carryover/headers.txt
 *.mmdb
 outdoors/wp-content/plugins/wp-fail2ban/*
-/outdoors/wp-content/uploads2/wga-cache/*
-/outdoors/wp-content/plugins/clearfy/includes/helpers.php
-/outdoors/wp-content/plugins/clearfy/libs/factory/forms/controls/google-font.php
-/outdoors/wp-content/plugins/clearfy/libs/factory/forms/controls/google-font.php
+/outdoors/wp-content/plugins/*
