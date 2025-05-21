@@ -3,4 +3,4 @@ config*.php
 carryover/headers.txt
 *.mmdb
 outdoors/wp-content/plugins/wp-fail2ban/*
-/outdoors/wp-content/plugins/*
+/outdoors/wp-content/*plugins/*
