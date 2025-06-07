@@ -3815,3 +3815,19 @@
 [2025-05-20 19:50:47 : INFO] - Cache for URL: https://www.assortedexplorations.com/outdoors/a-multi-continental-collection-of-longer-hiking-trails-ranging-from-ireland-to-new-zealand/continental-crossings-europes-great-walking-routes/ has been purged, triggered by action: save_post 
 [2025-05-21 09:00:15 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
 [2025-05-21 09:00:15 : INFO] - Cache for URL: https://www.assortedexplorations.com/outdoors/a-multi-continental-collection-of-longer-hiking-trails-ranging-from-ireland-to-new-zealand/englands-footpaths-from-coast-to-castle/ has been purged, triggered by action: save_post 
+[2025-05-21 14:17:13 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-21 14:17:13 : INFO] - Cache for URL: https://www.assortedexplorations.com/outdoors/a-worldwide-mapping-survey/ has been purged, triggered by action: save_post 
+[2025-05-21 19:09:15 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-21 19:09:15 : INFO] - Cache for URL: https://www.assortedexplorations.com/outdoors/a-worldwide-mapping-survey/ has been purged, triggered by action: save_post 
+[2025-05-26 15:10:29 : INFO] - Cache for URL: https://www.assortedexplorations.com/outdoors/?p=13911 has been purged, triggered by action: save_post 
+[2025-05-26 15:10:29 : INFO] - Cache for previous post (with URL: https://www.assortedexplorations.com/outdoors/frantic-when-life-collides-with-getting-away-for-a-long-weekend/) adjacent to post with id: 13911 has been purged, triggered by action: save_post 
+[2025-05-26 15:10:29 : INFO] - Cache for all archives page associated with post_type: post and Title: "Auto Draft" have been purged, triggered by action: save_post 
+[2025-05-26 15:12:18 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-26 15:12:18 : INFO] - Cache for URL: https://www.assortedexplorations.com/outdoors/a-multi-continental-collection-of-longer-hiking-trails-ranging-from-ireland-to-new-zealand/trailways-of-ireland-ancient-paths-and-modern-greenways/ has been purged, triggered by action: save_post 
+[2025-05-27 01:32:14 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-27 01:32:14 : INFO] - Cache for URL: https://www.assortedexplorations.com/outdoors/more-outdoor-adventures-a-global-guide-to-hiking-walking-and-cycling/walks-of-wonder-irelands-enchanting-paths-and-woodlands-from-dublin-to-donegal/ has been purged, triggered by action: save_post 
+[2025-06-03 22:37:30 : INFO] - Cache for URL: https://www.assortedexplorations.com/outdoors/?p=13912 has been purged, triggered by action: save_post 
+[2025-06-03 22:37:30 : INFO] - Cache for previous post (with URL: https://www.assortedexplorations.com/outdoors/frantic-when-life-collides-with-getting-away-for-a-long-weekend/) adjacent to post with id: 13912 has been purged, triggered by action: save_post 
+[2025-06-03 22:37:30 : INFO] - Cache for all archives page associated with post_type: post and Title: "Auto Draft" have been purged, triggered by action: save_post 
+[2025-06-07 14:55:10 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-07 14:55:10 : INFO] - Cache for URL: https://www.assortedexplorations.com/outdoors/weather-resources-for-outdoor-activities-from-local-forecasts-to-global-weather-services/ has been purged, triggered by action: save_post 
